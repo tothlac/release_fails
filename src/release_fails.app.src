@@ -1,0 +1,16 @@
+{application, release_fails,
+ [{description, "An OTP application"},
+  {vsn, git},
+  {registered, []},
+  {mod, { sappan_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
